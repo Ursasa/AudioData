@@ -1,0 +1,20 @@
+﻿Build started 12/3/2013 11:05:20 PM.
+     1>Project "C:\Users\Toshiba\Desktop\DTMF\DTMF\DTMF.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DTMF.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\DTMF.unsuccessfulbuild".
+         Touching "Debug\DTMF.lastbuildstate".
+     1>Done Building Project "C:\Users\Toshiba\Desktop\DTMF\DTMF\DTMF.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
