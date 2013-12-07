@@ -1,0 +1,8 @@
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\bin\Debug\DTMF2.exe
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\bin\Debug\DTMF2.pdb
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\obj\x86\Debug\DTMF2.exe
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\obj\x86\Debug\DTMF2.pdb
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\obj\x86\Debug\DTMF2.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\bin\Debug\NAudio.dll
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Toshiba\Desktop\DTMF\DTMF2\bin\Debug\NAudio.xml
