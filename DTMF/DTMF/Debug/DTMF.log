@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ﻿Build started 12/7/2013 12:42:00 PM.
      1>Project "C:\Users\Toshiba\Desktop\DTMF\DTMF\DTMF.vcxproj" on node 2 (build target(s)).
+=======
+﻿Build started 12/6/2013 1:51:16 PM.
+     1>Project "C:\Users\Toshiba\Desktop\DTMF\DTMF\DTMF.vcxproj" on node 3 (build target(s)).
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1
      1>InitializeBuildStatus:
          Creating "Debug\DTMF.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -17,4 +22,8 @@
 
 Build succeeded.
 
+<<<<<<< HEAD
 Time Elapsed 00:00:00.05
+=======
+Time Elapsed 00:00:00.07
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1

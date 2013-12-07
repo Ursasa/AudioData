@@ -97,6 +97,7 @@ void Dtmf::GenerateSample()
 
 	switch (m_digit)
 	{
+<<<<<<< HEAD
 		case '1':
 		case '2':
 		case '3':
@@ -132,6 +133,43 @@ void Dtmf::GenerateSample()
 		case 'B':
 		case 'C':
 		case 'D': hightone_frequency = 1633; break;
+=======
+	case '1':
+	case '2':
+	case '3':
+	case 'A': lowtone_frequency = 697; break;
+	case '4':
+	case '5':
+	case '6':
+	case 'B': lowtone_frequency = 770; break;
+	case '7':
+	case '8':
+	case '9':
+	case 'C': lowtone_frequency = 852; break;
+	case '*':
+	case '0':
+	case '#':
+	case 'D': lowtone_frequency = 941; break;
+	}
+	switch (m_digit)
+	{
+	case '1':
+	case '4':
+	case '7':
+	case '*': hightone_frequency = 1209; break;
+	case '2':
+	case '5':
+	case '8':
+	case '0': hightone_frequency = 1336; break;
+	case '3':
+	case '6':
+	case '9':
+	case '#': hightone_frequency = 1477; break;
+	case 'A':
+	case 'B':
+	case 'C':
+	case 'D': hightone_frequency = 1633; break;
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1
 	}
 
 	double pi_prod_1 = (2.0 * M_PI * lowtone_frequency) / SampleRate;

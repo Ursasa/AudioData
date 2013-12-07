@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using NAudio;
 using NAudio.Wave;
+=======
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1
 
 namespace DTMF2
 {
@@ -16,6 +19,7 @@ namespace DTMF2
 
             dtmf.SetDigit('6');
             dtmf.Init();
+<<<<<<< HEAD
 
             //double[] test = dtmf.GetData();
             //for (int i = 0; i < test.Length; i++)
@@ -25,6 +29,13 @@ namespace DTMF2
 
             dtmf.PlayTone();
 
+=======
+            double[] test = dtmf.GetData();
+            for (int i = 0; i < test.Length; i++)
+            {
+                Console.Write(dtmf.Run(test[i]) + " ");
+            }
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1
             Console.WriteLine();
 
             //dtmf.SetDigit('9');
@@ -239,6 +250,7 @@ namespace DTMF2
             PairKey pairKey = new PairKey { High_Fre = hifreq, Low_Fre = lofreq };
             return Result[pairKey];
         }
+<<<<<<< HEAD
 
         public void PlayTone()
         {           
@@ -249,5 +261,7 @@ namespace DTMF2
             waveOut.Init(sineWaveProvider);
             waveOut.Play();
         }
+=======
+>>>>>>> 40431dacdd7a33f0c326aca4a7c27194420cf7e1
     }
 }
